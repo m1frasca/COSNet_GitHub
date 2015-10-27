@@ -50,8 +50,8 @@ or follow the instruction for the manual installation above.
 
 Here is a simple example. See this [link](http://frasca.di.unimi.it/cosnetExample.html) for more examples.
 
-```
-library(bionetdata);
+```R
+`library(bionetdata);`
 # loading Binary protein-protein interactions from the STRING
 # data base (von Mering et al. 2002)
 data(Yeast.STRING.data)# "Yeast.STRING.data"
