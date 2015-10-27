@@ -5,7 +5,7 @@
 
 ## What is **COSNet**?
 
-**COSNet** (COst Sensitive neural Network)[1,2]
+**COSNet** (COst Sensitive neural Network) [1,2]
  is a novel method to learn node labels biological networks  with a high prevalence of negative instances. Examples of this context are the automated prediction of protein functions, the gene disease prioritization and the drug reposition problem. 
  
 COSNet is based on a cost-sensitive family of parametrized Hopfield networks,  whose characteristics can be summarized as follows:
