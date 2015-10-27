@@ -1,7 +1,7 @@
 # **COSNet**: Cost Sensitive Network for node label prediction on graphs with highly unbalanced labelings
 
-[![overview]](http://frasca.di.unimi.it/cosnet.html)
-[![downloads_month]](http://frasca.di.unimi.it/cosnetDownl.html)
+[[overview]](http://frasca.di.unimi.it/cosnet.html)
+[[downloads_month]](http://frasca.di.unimi.it/cosnetDownl.html)
 
 ## What is **COSNet**?
 
