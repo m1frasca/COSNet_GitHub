@@ -32,7 +32,7 @@ biocLite("COSNet")
 ```
 Try `http` if `https` is not available. This will download and install the package. Another possibility is doing it manually. For instance, on a unix/linix R environment, download the package at http://bioconductor.org/packages/release/bioc/src/contrib/COSNet_1.4.0.tar.gz and save it in the current folder. Then from the R prompt type
 ```bash
-install.packages("COSNet_1.3.3.tar.gz", repos=NULL)
+install.packages("COSNet_1.4.0.tar.gz", repos=NULL)
 ```
 
 The COSNet package has no dependencies. Nevertheless, the experiments reported in the package vignette use the R packages [bionetdata](https://cran.r-project.org/web/packages/bionetdata/index.html) and [PerfMeas](https://cran.r-project.org/web/packages/PerfMeas/index.html), available at the [CRAN](https://cran.r-project.org/) repository, for loading benchmark data and compute various measure of performance respectively. 
