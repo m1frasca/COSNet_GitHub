@@ -48,10 +48,10 @@ or follow the instruction for the manual installation above.
 
 ## Example
 
-Here is a simple example. See this [link](http://frasca.di.unimi.it/cosnetExample.html) for more examples.
+Here is a simple example. See this [link](http://frasca.di.unimi.it/cosnetExample.html), the manual and the package vignette for more examples.
 
 ```R
-`library(bionetdata);`
+library(bionetdata);
 # loading Binary protein-protein interactions from the STRING
 # data base (von Mering et al. 2002)
 data(Yeast.STRING.data)# "Yeast.STRING.data"
