@@ -52,23 +52,23 @@ Here is a simple example. See this [link](http://frasca.di.unimi.it/cosnetExampl
 
 ```
 library(bionetdata);
-## loading Binary protein-protein interactions from the STRING
-## data base (von Mering et al. 2002)
+# loading Binary protein-protein interactions from the STRING
+# data base (von Mering et al. 2002)
 data(Yeast.STRING.data)# "Yeast.STRING.data"
-## FunCat classes annotations (0/1) for the genes included
-## in Yeast.STRING.data. Annotations refer the funcat-2.1
-## scheme, and funcat-2.1 data 20070316 data, available from the MIPS web site.
+# FunCat classes annotations (0/1) for the genes included
+# in Yeast.STRING.data. Annotations refer the funcat-2.1
+# scheme, and funcat-2.1 data 20070316 data, available from the MIPS web site.
 data(Yeast.STRING.FunCat) # "Yeast.STRING.FunCat"
 labels <- Yeast.STRING.FunCat;
 labels[labels == 0] <- -1;
-## excluding the dummy "00" root
+# excluding the dummy "00" root
 labels <- labels[, -which(colnames(labels) == "00")];
 n <- nrow(labels);
 k <- floor(n/10);
 cat("k = ", k, "\n");
-## choosing the first class
+# choosing the first class
 labeling <- labels[, 1];
-## randomly choosing a subset of genes whose labels are hidden
+# randomly choosing a subset of genes whose labels are hidden
 hidden <- sort(sample(1:n, k));
 hidden.labels <- labeling[hidden];
 labeling[hidden] <- 0;
