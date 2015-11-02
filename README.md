@@ -30,9 +30,9 @@ COSNet is based on a cost-sensitive family of parametric Hopfield networks,  who
 source("https://bioconductor.org/biocLite.R")
 biocLite("COSNet")
 ```
-Try `http` if `https` is not available. This will download and install the package. Another possibility is doing it manually. For instance, on a unix/linix R environment, download the package at http://bioconductor.org/packages/release/bioc/src/contrib/COSNet_1.4.0.tar.gz and save it in the current folder. Then from the R prompt type
+Try `http` if `https` is not available. This will download and install the package. Another possibility is doing it manually. For instance, on a unix/linix R environment, download the package at http://bioconductor.org/packages/release/bioc/src/contrib/COSNet_1.5.1.tar.gz and save it in the current folder. Then from the R prompt type
 ```bash
-install.packages("COSNet_1.4.0.tar.gz", repos=NULL)
+install.packages("COSNet_1.5.1.tar.gz", repos=NULL)
 ```
 
 The COSNet package has no dependencies. Nevertheless, the experiments reported in the package vignette use the R packages [bionetdata](https://cran.r-project.org/web/packages/bionetdata/index.html) and [PerfMeas](https://cran.r-project.org/web/packages/PerfMeas/index.html), available at the [CRAN](https://cran.r-project.org/) repository, for loading benchmark data and compute various measure of performance respectively. 
@@ -90,9 +90,9 @@ FP2 <- sum(hidden.labels == -1 & prediction == 1);
     "A neural network algorithm for semi-supervised node label learning from unbalanced data"
     Neural Networks, 43, 84-98, 2013.
 [2] 
-	Bertoni, A., Frasca, M., Valentini G.
-	"COSNet: a Cost Sensitive Neural Network for Semi-supervised Learning in Graphs"
-	In:Machine Learning and Knowledge Discovery in Databases.
-	European Conference, ECML PKDD 2011, Athens, Greece, Proceedings, Part I,
-	Lecture Notes in Artificial Intelligence, vol. 6911, pp.219-234, Springer, 2011.
+    Bertoni, A., Frasca, M., Valentini G.
+    "COSNet: a Cost Sensitive Neural Network for Semi-supervised Learning in Graphs"
+     In:Machine Learning and Knowledge Discovery in Databases.
+      European Conference, ECML PKDD 2011, Athens, Greece, Proceedings, Part I,
+      Lecture Notes in Artificial Intelligence, vol. 6911, pp.219-234, Springer, 2011.
 ```
