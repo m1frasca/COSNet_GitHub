@@ -27,8 +27,10 @@ COSNet is based on a cost-sensitive family of parametric Hopfield networks,  who
 **COSNet** can be installed by running the R environment and typing:
 
 ```bash
-source("https://bioconductor.org/biocLite.R")
-biocLite("COSNet")
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+
+BiocManager::install("COSNet")
 ```
 Try `http` if `https` is not available. This will download and install the package. Another possibility is doing it manually. For instance, on a unix/linix R environment, download the package at http://bioconductor.org/packages/release/bioc/src/contrib/COSNet_1.4.1.tar.gz and save it in the current folder. Then from the R prompt type
 ```bash
